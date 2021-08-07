@@ -24,7 +24,7 @@
   </Description>
   <Registry>https://registry.hub.docker.com/u/centos</Registry>
   <GitHub>https://github.com/edwardboucher/dockerapp-centos</GitHub>
-  <Repository>limetech/centos</Repository>
+  <Repository>centos</Repository>
   <Support>https://forums.unraid.net/topic/</Support>
   <BindTime>true</BindTime>
   <Privileged>true</Privileged>
