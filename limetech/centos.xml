@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Date>2021-08-07</Date>
+  <Beta>False</Beta>
+  <Category>Linux</Category>
+  <Name>PlexMediaServer</Name>
+  <Project>https://www.centos.org/</Project>
+  <Changes>
+[center][img width='155px' src='https://d2631fvi2jdnb6.cloudfront.net/docker/limetech.png'][/center]
+
+[center][font size=4]CentOS Server Change Log[/font][/center]
+
+[font size=3]2021.08.07[/font]
+- Initial Release
+  </Changes>
+  <Overview>
+    Community-driven free software effort focused on delivering a robust open source ecosystem around a Linux platform.
+  </Overview>
+  <Description>
+    Community-driven free software effort focused on delivering a robust open source ecosystem around a Linux platform.[br][br]
+    [b][span style='color: #E80000;']Directions:[/span][/b][br]
+    [b]/config[/b] : this is where PMS will store it's databases and configuration.[br][br]
+    [b]Tip:[/b] You can add more volume mappings if you wish PMS has access to it.
+  </Description>
+  <Registry>https://registry.hub.docker.com/u/centos</Registry>
+  <GitHub>https://github.com/edwardboucher/dockerapp-centos</GitHub>
+  <Repository>limetech/centos</Repository>
+  <Support>https://forums.unraid.net/topic/</Support>
+  <BindTime>true</BindTime>
+  <Privileged>true</Privileged>
+  <Networking>
+    <Mode>host</Mode>
+    <Publish/>
+  </Networking>
+  <Environment/>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/CentOS</HostDir>
+      <ContainerDir>/config</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <WebUI></WebUI>
+  <Banner></Banner>
+  <Icon>https://d2631fvi2jdnb6.cloudfront.net/docker/limetech/plex.png</Icon>
+</Containers>
